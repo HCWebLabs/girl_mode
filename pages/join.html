@@ -1,1 +1,392 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Now - girl_mode</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <a href="../index.html" class="logo">girl<span class="logo-underscore">_</span>mode</a>
+            <nav class="header-links">
+                <a href="./login.html">log in</a>
+                <a href="./join.html">join now</a>
+                <a href="./shop.html">shop</a>
+                <a href="./contests.html">freebies & contests</a>
+                <a href="./help.html">help</a>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-icon"></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav-drawer">
+        <div class="mobile-nav-header">
+            <span class="mobile-nav-title">girl_mode</span>
+            <button class="mobile-nav-close" aria-label="Close menu">×</button>
+        </div>
+        <div class="mobile-nav-sections">
+            <div class="mobile-nav-section">
+                <a href="./connect.html" class="mobile-nav-section-link mobile-nav-connect">CONNECT</a>
+            </div>
+            <div class="mobile-nav-section">
+                <a href="./find-out.html" class="mobile-nav-section-link mobile-nav-find-out">FIND OUT</a>
+            </div>
+            <div class="mobile-nav-section">
+                <a href="./play.html" class="mobile-nav-section-link mobile-nav-play">PLAY</a>
+            </div>
+            <div class="mobile-nav-section">
+                <a href="./show-off.html" class="mobile-nav-section-link mobile-nav-show-off">SHOW OFF</a>
+            </div>
+            <div class="mobile-nav-section">
+                <a href="./react.html" class="mobile-nav-section-link mobile-nav-react">REACT</a>
+            </div>
+            <div class="mobile-nav-section">
+                <a href="./explore.html" class="mobile-nav-section-link mobile-nav-explore">EXPLORE</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="nav-sections">
+            <a href="./connect.html" class="nav-section nav-connect">
+                <span class="nav-section-title">CONNECT</span>
+                <div class="nav-section-links">
+                    <span>SHOUT OUT BOARDS</span>
+                    <span>YOUR ROOM</span>
+                    <span>MORE »</span>
+                </div>
+            </a>
+            
+            <a href="./find-out.html" class="nav-section nav-find-out">
+                <span class="nav-section-title">FIND OUT</span>
+                <div class="nav-section-links">
+                    <span>HELP ME HEATHER</span>
+                    <span>SEX ED BLOG</span>
+                    <span>MORE »</span>
+                </div>
+            </a>
+            
+            <a href="./play.html" class="nav-section nav-play">
+                <span class="nav-section-title">PLAY</span>
+                <div class="nav-section-links">
+                    <span>gURL GAMES</span>
+                    <span>QUIZZES</span>
+                    <span>MORE »</span>
+                </div>
+            </a>
+            
+            <a href="./show-off.html" class="nav-section nav-show-off">
+                <span class="nav-section-title">SHOW OFF</span>
+                <div class="nav-section-links">
+                    <span>COMIX</span>
+                    <span>PHOTOS</span>
+                    <span>MORE »</span>
+                </div>
+            </a>
+            
+            <a href="./react.html" class="nav-section nav-react">
+                <span class="nav-section-title">REACT</span>
+                <div class="nav-section-links">
+                    <span>POLLS</span>
+                    <span>VIDEO</span>
+                    <span>MORE »</span>
+                </div>
+            </a>
+            
+            <a href="./explore.html" class="nav-section nav-explore">
+                <span class="nav-section-title">EXPLORE</span>
+                <div class="nav-section-links">
+                    <span>BODY IMAGE</span>
+                    <span>SEX</span>
+                    <span>MORE »</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+    
+    <!-- Full Width Content -->
+    <div class="full-width-sections">
+        
+        <!-- Join Section -->
+        <section class="content-section" id="main-content">
+            <h1 class="section-heading">
+                <i class="fa-solid fa-star"></i>
+                <span>JOIN GIRL_MODE</span>
+            </h1>
+            <p class="section-intro">become part of our community! it's free and takes 2 minutes.</p>
+            
+            <div style="max-width: 600px; margin: 3rem auto;">
+                <div class="topic-box topic-magenta" style="padding: 2.5rem;">
+                    <form class="auth-form" id="registerForm">
+                        <div class="form-group">
+                            <label for="reg-username" class="form-label">
+                                <i class="fa-solid fa-user"></i> choose a username
+                            </label>
+                            <input 
+                                type="text" 
+                                id="reg-username" 
+                                name="username" 
+                                class="form-input"
+                                placeholder="pick something cool!"
+                                required
+                                minlength="3"
+                                maxlength="20"
+                            >
+                            <small class="form-hint">3-20 characters, letters and numbers only</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-email" class="form-label">
+                                <i class="fa-solid fa-envelope"></i> email address
+                            </label>
+                            <input 
+                                type="email" 
+                                id="reg-email" 
+                                name="email" 
+                                class="form-input"
+                                placeholder="your email (we won't spam you!)"
+                                required
+                            >
+                            <small class="form-hint">we'll only use this for account stuff, promise!</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-password" class="form-label">
+                                <i class="fa-solid fa-lock"></i> password
+                            </label>
+                            <input 
+                                type="password" 
+                                id="reg-password" 
+                                name="password" 
+                                class="form-input"
+                                placeholder="make it strong!"
+                                required
+                                minlength="8"
+                            >
+                            <small class="form-hint">at least 8 characters</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-confirm-password" class="form-label">
+                                <i class="fa-solid fa-lock"></i> confirm password
+                            </label>
+                            <input 
+                                type="password" 
+                                id="reg-confirm-password" 
+                                name="confirm-password" 
+                                class="form-input"
+                                placeholder="type it again"
+                                required
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-birthdate" class="form-label">
+                                <i class="fa-solid fa-cake-candles"></i> birthdate
+                            </label>
+                            <input 
+                                type="date" 
+                                id="reg-birthdate" 
+                                name="birthdate" 
+                                class="form-input"
+                                required
+                            >
+                            <small class="form-hint">you must be 13+ to join (we keep it private!)</small>
+                        </div>
+                        
+                        <div class="form-divider"></div>
+                        
+                        <div class="form-group form-checkbox-group">
+                            <label class="form-checkbox-label">
+                                <input type="checkbox" name="terms" class="form-checkbox" required>
+                                <span>I agree to the <a href="./terms.html" class="form-inline-link">terms of service</a> and <a href="./privacy.html" class="form-inline-link">privacy policy</a></span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-group form-checkbox-group">
+                            <label class="form-checkbox-label">
+                                <input type="checkbox" name="guidelines" class="form-checkbox" required>
+                                <span>I agree to follow the <a href="./guidelines.html" class="form-inline-link">community guidelines</a></span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-group form-checkbox-group">
+                            <label class="form-checkbox-label">
+                                <input type="checkbox" name="newsletter" class="form-checkbox">
+                                <span>send me updates about girl_mode (optional)</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn form-submit-btn">
+                            create my account ✨
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="topic-box topic-cyan" style="padding: 2rem; margin-top: 2rem; text-align: center;">
+                    <div class="topic-icon" style="font-size: 2rem;"><i class="fa-solid fa-heart"></i></div>
+                    <h3 class="topic-title">already have an account?</h3>
+                    <p class="topic-text">welcome back! log in to access your account.</p>
+                    <a href="./login.html" class="btn" style="display: inline-block; margin-top: 1rem;">log in</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- What You Get Section -->
+        <section class="content-section alt-bg">
+            <h2 class="section-heading">
+                <i class="fa-solid fa-sparkles"></i>
+                <span>WHAT YOU GET</span>
+            </h2>
+            <p class="section-intro">membership benefits (all free!)</p>
+            
+            <div class="topic-grid">
+                <div class="topic-box topic-purple">
+                    <div class="topic-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3 class="topic-title">join the conversation</h3>
+                    <p class="topic-text">post on boards, comment on articles, participate in discussions. your voice matters!</p>
+                </div>
+                
+                <div class="topic-box topic-pink">
+                    <div class="topic-icon"><i class="fa-solid fa-house"></i></div>
+                    <h3 class="topic-title">personalize your space</h3>
+                    <p class="topic-text">create and customize your own room. show off your style and personality.</p>
+                </div>
+                
+                <div class="topic-box topic-orange">
+                    <div class="topic-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3 class="topic-title">share your art</h3>
+                    <p class="topic-text">submit comics, stories, photos. get featured and connect with other creators.</p>
+                </div>
+                
+                <div class="topic-box topic-lime">
+                    <div class="topic-icon"><i class="fa-solid fa-sparkles"></i></div>
+                    <h3 class="topic-title">exclusive content</h3>
+                    <p class="topic-text">access members-only features, contests, and special events. the good stuff!</p>
+                </div>
+                
+                <div class="topic-box topic-cyan">
+                    <div class="topic-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="topic-title">find your people</h3>
+                    <p class="topic-text">connect with girls who get you. make friends, find support, build community.</p>
+                </div>
+                
+                <div class="topic-box topic-yellow">
+                    <div class="topic-icon"><i class="fa-solid fa-lock"></i></div>
+                    <h3 class="topic-title">safe & moderated</h3>
+                    <p class="topic-text">our team keeps the community safe, welcoming, and drama-free. always.</p>
+                </div>
+            </div>
+            
+            <div class="quote-box" style="margin-top: 3rem;">
+                <div class="quote-text">"Join a community where you can be yourself, learn, grow, and connect with people who actually understand what you're going through."</div>
+                <div class="quote-author">— girl_mode</div>
+            </div>
+        </section>
+        
+    </div>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-sections">
+            <div class="footer-section footer-connect">
+                <h3 class="footer-section-title">CONNECT</h3>
+                <div class="footer-links">
+                    <a href="./boards.html">Shout Out Boards</a>
+                    <a href="./your-room.html">Your Room</a>
+                    <a href="./friends.html">Find Friends</a>
+                    <a href="./community.html">Community</a>
+                </div>
+            </div>
+            
+            <div class="footer-section footer-find-out">
+                <h3 class="footer-section-title">FIND OUT</h3>
+                <div class="footer-links">
+                    <a href="./advice.html">Help Me Heather</a>
+                    <a href="./sex-ed.html">Sex Ed Blog</a>
+                    <a href="./health.html">Health & Body</a>
+                    <a href="./articles.html">Articles</a>
+                </div>
+            </div>
+            
+            <div class="footer-section footer-play">
+                <h3 class="footer-section-title">PLAY</h3>
+                <div class="footer-links">
+                    <a href="./games.html">gURL Games</a>
+                    <a href="./quizzes.html">Quizzes</a>
+                    <a href="./generators.html">Generators</a>
+                    <a href="./fun.html">Fun Stuff</a>
+                </div>
+            </div>
+            
+            <div class="footer-section footer-show-off">
+                <h3 class="footer-section-title">SHOW OFF</h3>
+                <div class="footer-links">
+                    <a href="./comix.html">Comix</a>
+                    <a href="./photos.html">Photos</a>
+                    <a href="./stories.html">Your Stories</a>
+                    <a href="./submit.html">Submit Art</a>
+                </div>
+            </div>
+            
+            <div class="footer-section footer-react">
+                <h3 class="footer-section-title">REACT</h3>
+                <div class="footer-links">
+                    <a href="./polls.html">Polls</a>
+                    <a href="./videos.html">Videos</a>
+                    <a href="./discuss.html">Discussions</a>
+                    <a href="./dig-or-dis.html">Dig or Dis</a>
+                </div>
+            </div>
+            
+            <div class="footer-section footer-explore">
+                <h3 class="footer-section-title">EXPLORE</h3>
+                <div class="footer-links">
+                    <a href="./body-image.html">Body Image</a>
+                    <a href="./sex.html">Sex & Relationships</a>
+                    <a href="./mental-health.html">Mental Health</a>
+                    <a href="./topics.html">All Topics</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="footer-tagline">built with <span class="footer-love">♥</span> for the girls who need it</p>
+            <p class="footer-info">
+                A modern space for empowerment, support, and real talk.<br>
+                Inspired by the groundbreaking spirit of early web communities.<br>
+                <a href="./about.html">About</a> • <a href="./privacy.html">Privacy</a> • <a href="./safety.html">Safety</a> • <a href="./contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i>
+    </button>
+    
+    <!-- External JavaScript -->
+    <script src="../script.js"></script>
+</body>
+</html>
